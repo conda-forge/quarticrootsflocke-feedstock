@@ -1,5 +1,5 @@
 {% set name = "quarticRootsFlocke" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ebertolazzi/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 72520022b5dc31b9670b2bae228428f8dbc49ee2e71224a34ea47958fc010e47
+  sha256: 70ce787059845d1ae4515eab142267fb412b00613e3e17853a1b40afe781f90e
   patches:
     - patches/0001-correct-guess-for-quartic-root-small-improvement-of-.patch
     - patches/0002-updated-doc.patch
@@ -51,7 +51,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: License.txt
-  summary: 'C++ rewrite of rpoly.f'
+  summary: C++ rewrite of rpoly.f
   description: |
     Port to C++ of the algorithm of Norbert Flocke for polynomial roots up to
     degree 4. Also Jenkins-Traub real polynomial root finder is ported but is
