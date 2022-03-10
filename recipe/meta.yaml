@@ -9,19 +9,6 @@ source:
   url: https://github.com/ebertolazzi/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
   sha256: 70ce787059845d1ae4515eab142267fb412b00613e3e17853a1b40afe781f90e
   patches:
-    - patches/0001-correct-guess-for-quartic-root-small-improvement-of-.patch
-    - patches/0002-updated-doc.patch
-    - patches/0003-updated-doxygen-docs.patch
-    - patches/0004-removed-compilation-warnings.patch
-    - patches/0005-updated-deflaction-for-cubic-prblem-signaled-by-E.Si.patch
-    - patches/0006-Consistent-cmake-targets.patch
-    - patches/0007-Modified-Rakefile-for-the-new-cmake.patch
-    - patches/0008-updated-CMakeLists.txt-get-tag-from-git-use-INSTALL_.patch
-    - patches/0009-corrected-INSTALL_HERE-coomand-in-CMakeLIsts.txt.patch
-    - patches/0010-updated-CMakeLists.txt.patch
-    - patches/0011-use-NMake-for-Visual-Studio-Compilation.patch
-    - patches/0012-upadated-rakefiles.patch
-    - patches/0013-updated-Rakefile.patch
     - patches/0014-Print-all-install-messages.patch
     - patches/0015-Generate-Config-files.patch
     - patches/0016-Use-standard-generated-library-filename.patch
